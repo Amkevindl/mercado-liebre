@@ -1,0 +1,39 @@
+.yellow{
+    background-color: #EAC926;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;;
+}
+.parrafos{
+    font-size: 12px;
+}
+.titulares{
+    font-size: 24px;
+    background-color: #ebebeb;
+}
+.precio{
+    font-size: 18px;
+}
+.desc{
+    font-size: 16px;
+    color: #39b54a;;
+}
+.descrip{
+    font-size: 16px;
+}
+.gris{
+    background-color: #666;
+}
+.fas{
+    color:#39b54a;
+}
+.fa-credit-card{
+    color: #03264C;
+}
+.fa-gift{
+    color: #03264C;
+}
+.fa-user-shield{
+    color: #03264C;
+}

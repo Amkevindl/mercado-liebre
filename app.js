@@ -2,7 +2,7 @@ const express=require('express');
 const app=express();
 const path=require('path')
 
-app.listen(3000)
+app.listen(3030)
 app.get('/',function(req,res){
     let file=path.resolve('./index.html');
     res.sendFile(file)
