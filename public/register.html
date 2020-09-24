@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+
+</head>
+<body>
+    <header class="yellow">
+    <img src="logo-mercado-liebre.svg" alt="" width="100%">
+    <p class="parrafos">Lugar para poner barra de busqueda</p>
+    <p class="parrafos">Compra en cuotas y sin tarjetas de credito</p>
+    <nav><ul class="parrafos">
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Tiendas Oficiales</a></li>
+        <li><a href="#">Vender</a></li>
+        <li><a href="#">Ayuda</a></li>
+    </ul></nav>
+    <section>
+        <ul class="parrafos">
+        <li><a href="/register">Crea tu cuenta</a></li>
+        <li><a href="/login">Ingresá</a></li>
+        <li><a href="#">Mis compras</a></li>
+    </ul>
+    </section>
+</header>
+<main>
+    <section>
+        <form action="/" method ="get">
+            <p> <label for="nombreyapellido"></label></p>
+            <p> <input type="text" id="nombreyapellido" placeholder= "Nombre y apellido" name="nombreyapellido"> </p>
+            <p> <label for="nombredeusuario"></label></p>
+            <p> <input type="text" id="nombredeusuario" placeholder= "Nombre de usuario" name="nombredeusuario"> </p>
+            <p> <label for="email"></label></p>
+            <p> <input type="email" id="email" placeholder= "E-mail" name="email"> </p>
+            <p> <label for="fechadenacimiento"> Fecha de nacimiento </label></p>
+            <p> <input type="date" id="fechadenacimiento" placeholder= "dd/mm/aa" name="fechadenacimiento"> </p>
+            <p> <label for="domicilio"></label></p>
+            <p> <input type="text" id="domicilio" placeholder= "Domicilio" name="domicilio"> </p>
+            <p><label for=""> Perfil del usuario </label></p>
+            <p> <input type="radio" name= "perfil"> Comprador </p>
+            <p> <input type="radio" name= "perfil"> Vendedor </p>
+            <p><label for=""> Intereses </label></p>
+            <input type="checkbox" name="intereses" value="electro"> Electro 
+            <input type="checkbox" name="intereses" value="moda"> Moda 
+            <input type="checkbox" name="intereses" value="hogar"> Hogar 
+            <input type="checkbox" name="intereses" value="jugueteria"> Jugueteria 
+            <input type="checkbox" name="intereses" value="vida sana"> Vida Sana 
+            <div>
+            <p>Elegí tu foto de usuario</p>
+            <button type="button">Seleccionar archivo</button>No se eligió archivo<br>
+            </div>
+            <input type="password" name="password" id="password" placeholder="Ingrese su contraseña"><br>
+            </div> 
+            <input type="password" name="password2" id="password2" placeholder="Confirmar contraseña">
+            </div>
+            <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+             </div>
+            </form>
+    </section>
+</main>
+<footer>
+    <article>
+        <i class="fas fa-credit-card"></i>
+        <strong><p>Pagá con tarjeta o en efectivo</p></strong>
+        <p>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivoen puntos de
+            pago. ¡Y siempre es seguro!</p>
+    </article>
+    <article>
+        <i class="fas fa-gift"></i>
+        <strong><p>Envío gratis desde los $ 2.500</p></strong>
+        <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de
+            productos. Es un beneficio de MercadoPuntos.</p>
+    </article>
+    <article>
+        <i class="fas fa-user-shield"></i>
+        <strong><p>Seguridad, de principio a fin</p></strong>
+        <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer
+            porque estás siempre prtegid@.</p>
+    </article>
+    <div>Copyright © 1999-2019 MercadoLiebre S.R.L.</div>
+</footer>
+</body>
+</html>
